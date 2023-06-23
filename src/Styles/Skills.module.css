@@ -1,0 +1,104 @@
+.skills {
+    height: 100%;
+    padding-top: 10px;
+    background-image: url(https://th.bing.com/th/id/R7aac0a65c2f22ba34702ab7413afd7aa?rik=3QLaVVVlQ8ByPQ&riu=http%3A%2F%2Fperfonec.com%2Fwp-content%2Fuploads%2F2019%2F03%2Fhome-gif.gif&ehk=t5qZ3Kod64AaXvjumGsEYHoPvBh7swqcZROIBTCNiow%3D&risl=&pid=ImgRaw);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 20%;
+}
+
+.desc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.desc>div {
+    margin: auto;
+    margin-top: 40px;
+    padding: 80px;
+    border-radius: 20px;
+    background-color: white;
+    opacity: 0.9;
+    box-shadow: rgba(198, 102, 102, 0.35) 0px 5px 15px;
+
+}
+
+.desc>div:hover {
+    opacity: 1.0;
+}
+
+/* .desc>div > *{
+    opacity: 1.0;
+} */
+
+.desc>div:hover {
+    border: 1px solid rgb(202, 110, 110);
+    transform: scale(1.1);
+    transition: ease .5s;
+}
+
+/* .desc>div {
+    border: 1px solid #03A9F3;
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 20px;
+    }
+
+    &::before {
+        top: -5px;
+        left: -5px;
+        border-top: 1px solid var(--borderColor);
+        border-left: 1px solid var(--borderColor);
+    }
+
+    &::after {
+        right: -5px;
+        bottom: -5px;
+        border-bottom: 1px solid var(--borderColor);
+        border-right: 1px solid var(--borderColor);
+    }
+
+    &:hover::before,
+    &:hover::after {
+        width: calc(100% + 9px);
+        height: calc(100% + 9px);
+    }
+} */
+
+.skills img {
+    width: 50px;
+}
+
+.techstack {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+}
+
+.techstack>div {
+    margin: auto;
+}
+
+.techstack img {
+    width: 55px;
+    height: 50px;
+}
+
+.tools {
+    display: block;
+    width: 400px;
+    align-items: center;
+}
+
+.toolsList {
+    display: flex;
+}
+
+.toolsList>div {
+    margin: auto;
+}

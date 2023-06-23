@@ -1,0 +1,63 @@
+.home{
+    height: 100%;
+}
+
+.home_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.intro {
+    width: 500px;
+}
+
+.profile> img{
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 20px;
+    border: 1px solid teal;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.profile > img:hover{
+    transform: scale(1.1);
+    transition: ease-in-out .5s;
+}
+
+.intro img{
+    width: 100px;
+    height: 100px;
+}
+
+.intro > div:first-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* .typewriter {
+    font-size: 50px;
+    letter-spacing: 5px;
+    border-right: 5px solid black;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(8), cursor .4s step-end infinite alternate;
+
+}
+
+@keyframes cursor {
+    50% {
+        border-color: transparent
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+} */

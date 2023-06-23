@@ -1,0 +1,23 @@
+.about{
+    display: block;
+    padding-top: 20px;
+}
+
+.desc{
+    display: flex;
+}
+
+.desc > *{
+    margin: auto;
+}
+
+.desc > img{
+    margin-top: -30px;
+    width: 600px;
+}
+
+.para{
+    width : 550px;
+    margin-top: 120px;
+    margin-left: 20px;
+}

@@ -1,0 +1,58 @@
+.projects{
+    padding-top: 10px;
+}
+
+.catalouge {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 50px;
+}
+
+.catalouge > div{
+    margin: auto;
+    width: 90%;
+    height: 400px;
+}
+
+.singleProject{
+    position: relative;
+} 
+
+.singleProject > img{
+    position: absolute;
+    width : 250px;
+    height: 100%;
+}
+.first{
+    left : 0px;
+    opacity: 0.1;
+}
+.first:hover{
+    border: .8px solid rgb(202, 110, 110);
+    opacity: 1;
+    transform: scale(1.1);
+    transition: ease .6s;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.mid{
+    left: 28%;
+}
+.mid:hover{
+    border: .8px solid rgb(202, 110, 110);
+    transform: scale(1.1);
+    transition: ease .6s;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.last{
+    right : 0px;
+    opacity: .1;
+}
+.last:hover{
+    border: .8px solid rgb(202, 110, 110);
+    opacity: 1; 
+    transform: scale(1.1);
+    transition: ease .6s;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
