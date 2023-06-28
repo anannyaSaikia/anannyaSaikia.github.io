@@ -12,6 +12,9 @@ const About = () => {
           React in multiple projects • Broadening my horizon in React, MongoDB and Node.js
           • Currently looking for opportunities to work and build with enthusiasts of Tech world</p>
       </div>
+      <div >
+        <button id="resume-button-2" className={style.resume_button}>Resume</button>
+      </div>
 
     </div>
   )

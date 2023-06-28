@@ -23,40 +23,40 @@ function App() {
   }
   return (
     <div className="App">
-      <div className={style.navbar}>
+      <div id="nav-menu" className={style.navbar}>
         <div className={style.logo}>
           <h3>Anannya</h3>
         </div>
         <div className={style.list}>
           <ul className={style.ul}>
-            <li className={style.link} onClick={() => scrollToSection(home)}>Home</li>
-            <li className={style.link} onClick={() => scrollToSection(about)}>About</li>
-            <li className={style.link} onClick={() => scrollToSection(skills)}>Skills</li>
-            <li className={style.link} onClick={() => scrollToSection(projects)}>Projects</li>
-            <li className={style.link} onClick={() => scrollToSection(contact)}>Contact</li>
+            <li class="nav-link home" className={style.link} onClick={() => scrollToSection(home)}>Home</li>
+            <li class="nav-link about" className={style.link} onClick={() => scrollToSection(about)}>About</li>
+            <li class="nav-link skills" className={style.link} onClick={() => scrollToSection(skills)}>Skills</li>
+            <li class="nav-link projects" className={style.link} onClick={() => scrollToSection(projects)}>Projects</li>
+            <li class="nav-link contact" className={style.link} onClick={() => scrollToSection(contact)}>Contact</li>
           </ul>
         </div>
         <div >
-          <button className={style.resume_button}>Resume</button>
+          <button class="nav-link resume" id="resume-button-1" className={style.resume_button}>Resume</button>
         </div>
         {/*  <li className={style.link} onClick={() => scrollToSection(resume)}>Resume</li> */}
 
       </div>
 
       <div className={style.mainBody}>
-        <div style={{ height: "700px", paddingTop: "53px" }} ref={home}>
+        <div id="home" style={{ height: "700px", paddingTop: "53px" }} ref={home}>
           <Home />
         </div>
-        <div style={{ height: "700px", paddingTop: "53px" }} ref={about}>
+        <div id="about" class="about section" style={{ height: "700px", paddingTop: "53px" }} ref={about}>
           <About />
         </div>
-        <div style={{ height: "700px", paddingTop: "53px" }} ref={skills}>
+        <div id="skills" style={{ height: "700px", paddingTop: "53px" }} ref={skills}>
           <Skills />
         </div>
-        <div style={{ height: "700px", paddingTop: "53px" }} ref={projects}>
+        <div id="projects" style={{ height: "700px", paddingTop: "53px" }} ref={projects}>
           <Projects />
         </div>
-        <div style={{ height: "700px", paddingTop: "53px" }} ref={contact}>
+        <div id="contact" style={{ height: "700px", paddingTop: "53px" }} ref={contact}>
           <Contact />
         </div>
       </div>

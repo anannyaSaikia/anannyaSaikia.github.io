@@ -10,16 +10,29 @@ const Projects = () => {
       <h1>My Projects Catalogue</h1>
       <div className={style.catalouge}>
 
-        <div className={style.singleProject}>
-          <img className={style.mid} src={mrchef2} alt="image2" />
-          <img className={style.first} src={mrchef1} alt="image1" />
-          <img className={style.last} src={mrchef3} alt="image3" />
+        <div class="project-card">
+          <div className={style.singleProject}>
+            <img className={style.mid} src={mrchef2} alt="image2" />
+            <img className={style.first} src={mrchef1} alt="image1" />
+            <img className={style.last} src={mrchef3} alt="image3" />
+          </div>
+          <h3 class="project-title">Mr.Chef</h3>
+          <p class="project-description"></p>
+          <p class="project-tech-stack"></p>
+          <p class="project-github-link"></p>
+          <p class="project-deployed-link"></p>
         </div>
-
-        <div className={style.singleProject}>
-          <img className={style.first} src="" alt="image1" />
-          <img className={style.mid} src="" alt="image2" />
-          <img className={style.last} src="" alt="image3" />
+        <div class="project-card">
+          <div class="project-card" className={style.singleProject}>
+            <img className={style.first} src="" alt="image1" />
+            <img className={style.mid} src="" alt="image2" />
+            <img className={style.last} src="" alt="image3" />
+          </div>
+          <h3 class="project-title">Mr.Chef</h3>
+          <p class="project-description"></p>
+          <p class="project-tech-stack"></p>
+          <p class="project-github-link"></p>
+          <p class="project-deployed-link"></p>
         </div>
 
       </div>
