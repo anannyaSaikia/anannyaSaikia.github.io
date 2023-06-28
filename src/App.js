@@ -29,11 +29,11 @@ function App() {
         </div>
         <div className={style.list}>
           <ul className={style.ul}>
-            <li class="nav-link.home" className={style.link} onClick={() => scrollToSection(home)}>Home</li>
-            <li class="nav-link.about" className={style.link} onClick={() => scrollToSection(about)}>About</li>
-            <li class="nav-link.skills" className={style.link} onClick={() => scrollToSection(skills)}>Skills</li>
-            <li class="nav-link.projects" className={style.link} onClick={() => scrollToSection(projects)}>Projects</li>
-            <li class="nav-link.contact" className={style.link} onClick={() => scrollToSection(contact)}>Contact</li>
+            <li className="nav-link.home" id={style.link} onClick={() => scrollToSection(home)}>Home</li>
+            <li className="nav-link.about" id={style.link} onClick={() => scrollToSection(about)}>About</li>
+            <li className="nav-link.skills" id={style.link} onClick={() => scrollToSection(skills)}>Skills</li>
+            <li className="nav-link.projects" id={style.link} onClick={() => scrollToSection(projects)}>Projects</li>
+            <li className="nav-link.contact" id={style.link} onClick={() => scrollToSection(contact)}>Contact</li>
           </ul>
         </div>
         <div >

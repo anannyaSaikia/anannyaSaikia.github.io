@@ -11,7 +11,7 @@ const Projects = () => {
       <div className={style.catalouge}>
 
         <div className="project-card" style={{ height: "100%" }}>
-          <div className={style.singleProject}>
+          <div id={style.singleProject}>
             <img className={style.mid} src={mrchef2} alt="image2" />
             <img className={style.first} src={mrchef1} alt="image1" />
             <img className={style.last} src={mrchef3} alt="image3" />
@@ -32,7 +32,7 @@ const Projects = () => {
           </p>
         </div>
         <div className="project-card">
-          <div className="project-card" id={style.singleProject}>
+          <div id={style.singleProject}>
             <img className={style.first} src="" alt="image1" />
             <img className={style.mid} src="" alt="image2" />
             <img className={style.last} src="" alt="image3" />
@@ -54,7 +54,7 @@ const Projects = () => {
         </div>
 
         <div className="project-card">
-          <div className="project-card" id={style.singleProject}>
+          <div id={style.singleProject}>
             <img className={style.first} src="" alt="image1" />
             <img className={style.mid} src="" alt="image2" />
             <img className={style.last} src="" alt="image3" />
@@ -75,7 +75,7 @@ const Projects = () => {
         </div>
 
         <div className="project-card">
-          <div className="project-card" id={style.singleProject}>
+          <div id={style.singleProject}>
             <img className={style.first} src="" alt="image1" />
             <img className={style.mid} src="" alt="image2" />
             <img className={style.last} src="" alt="image3" />
