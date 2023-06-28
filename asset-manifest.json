@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/anannyaSaikia.github.io/static/css/main.0a521917.css",
+    "main.js": "/anannyaSaikia.github.io/static/js/main.e56bf5f6.js",
+    "static/js/787.73fa73a0.chunk.js": "/anannyaSaikia.github.io/static/js/787.73fa73a0.chunk.js",
+    "static/media/mr_chef_image2.png": "/anannyaSaikia.github.io/static/media/mr_chef_image2.2b07400df5e99029ea81.png",
+    "static/media/mr_chef_image1.png": "/anannyaSaikia.github.io/static/media/mr_chef_image1.42f00df67ede33342b38.png",
+    "static/media/mr_chef_image3.png": "/anannyaSaikia.github.io/static/media/mr_chef_image3.cd447947f030702afb1e.png",
+    "index.html": "/anannyaSaikia.github.io/index.html",
+    "main.0a521917.css.map": "/anannyaSaikia.github.io/static/css/main.0a521917.css.map",
+    "main.e56bf5f6.js.map": "/anannyaSaikia.github.io/static/js/main.e56bf5f6.js.map",
+    "787.73fa73a0.chunk.js.map": "/anannyaSaikia.github.io/static/js/787.73fa73a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a521917.css",
+    "static/js/main.e56bf5f6.js"
+  ]
+}
