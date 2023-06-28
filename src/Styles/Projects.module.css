@@ -8,10 +8,16 @@
     padding-top: 50px;
 }
 
-.catalouge > div{
+.catalouge div{
     margin: auto;
     width: 90%;
     height: 400px;
+}
+
+.catalouge > div{
+    padding: 20px;
+    border: 1px solid rgb(179, 131, 131);
+    border-radius: 10px;
 }
 
 .singleProject{

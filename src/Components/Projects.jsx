@@ -9,7 +9,7 @@ const Projects = () => {
     <div className={style.projects}>
       <h1>My Projects Catalogue</h1>
       <div className={style.catalouge}>
-
+        
         <div class="project-card">
           <div className={style.singleProject}>
             <img className={style.mid} src={mrchef2} alt="image2" />
