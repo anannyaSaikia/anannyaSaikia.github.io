@@ -74,22 +74,22 @@
     width: 50px;
 }
 
-.techstack {
+#techstack {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
 }
 
-.techstack>div {
+#techstack>div {
     margin: auto;
 }
 
-.techstack img {
+#techstack img {
     width: 55px;
     height: 50px;
 }
 
-.tools {
+#tools {
     display: block;
     width: 400px;
     align-items: center;

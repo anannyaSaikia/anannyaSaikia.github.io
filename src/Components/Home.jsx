@@ -19,7 +19,7 @@ const Home = () => {
 
         </div>
 
-        <div class="home-img" className={style.profile}>
+        <div className="home-img" id={style.profile}>
 
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoKFD3NU64SaOrS-ryVuLM2O-ocgu8ufhbnQ&usqp=CAU"

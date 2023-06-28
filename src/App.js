@@ -29,11 +29,11 @@ function App() {
         </div>
         <div className={style.list}>
           <ul className={style.ul}>
-            <li class="nav-link home" className={style.link} onClick={() => scrollToSection(home)}>Home</li>
-            <li class="nav-link about" className={style.link} onClick={() => scrollToSection(about)}>About</li>
-            <li class="nav-link skills" className={style.link} onClick={() => scrollToSection(skills)}>Skills</li>
-            <li class="nav-link projects" className={style.link} onClick={() => scrollToSection(projects)}>Projects</li>
-            <li class="nav-link contact" className={style.link} onClick={() => scrollToSection(contact)}>Contact</li>
+            <li class="nav-link.home" className={style.link} onClick={() => scrollToSection(home)}>Home</li>
+            <li class="nav-link.about" className={style.link} onClick={() => scrollToSection(about)}>About</li>
+            <li class="nav-link.skills" className={style.link} onClick={() => scrollToSection(skills)}>Skills</li>
+            <li class="nav-link.projects" className={style.link} onClick={() => scrollToSection(projects)}>Projects</li>
+            <li class="nav-link.contact" className={style.link} onClick={() => scrollToSection(contact)}>Contact</li>
           </ul>
         </div>
         <div >
@@ -53,7 +53,7 @@ function App() {
         <div id="skills" style={{ height: "700px", paddingTop: "53px" }} ref={skills}>
           <Skills />
         </div>
-        <div id="projects" style={{ height: "700px", paddingTop: "53px" }} ref={projects}>
+        <div id="projects" style={{ height: "2100px", paddingTop: "53px" }} ref={projects}>
           <Projects />
         </div>
         <div id="contact" style={{ height: "700px", paddingTop: "53px" }} ref={contact}>

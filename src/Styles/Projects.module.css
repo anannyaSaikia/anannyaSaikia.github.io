@@ -5,29 +5,33 @@
 .catalouge {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-top: 50px;
+    padding-top: 5px;
 }
 
 .catalouge div{
     margin: auto;
     width: 90%;
-    height: 400px;
+    height: 300px;
 }
 
 .catalouge > div{
-    padding: 20px;
+    padding: 0px;
+    height : 85%;
     border: 1px solid rgb(179, 131, 131);
     border-radius: 10px;
+    box-shadow: rgba(179, 131, 131) 0px 5px 15px;
 }
 
-.singleProject{
+#singleProject{
     position: relative;
+    padding-top: 10px;
 } 
 
-.singleProject > img{
+#singleProject > img{
     position: absolute;
-    width : 250px;
+    width : 200px;
     height: 100%;
+    border-radius: 10px;
 }
 .first{
     left : 0px;

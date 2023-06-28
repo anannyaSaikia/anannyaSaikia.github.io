@@ -13,7 +13,7 @@
     width: 500px;
 }
 
-.profile> img{
+#profile> img{
     margin-top: 50px;
     margin-left: 80px;
     margin-right: 20px;
@@ -22,7 +22,7 @@
     width: 300px;
 }
 
-.profile > img:hover{
+#profile > img:hover{
     transform: scale(1.1);
     transition: ease-in-out .5s;
 }
