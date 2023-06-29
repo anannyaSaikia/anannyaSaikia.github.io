@@ -1,18 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.98d06afb.css",
-    "main.js": "/static/js/main.683ebcc3.js",
+    "main.css": "/static/css/main.2c06e287.css",
+    "main.js": "/static/js/main.e918ee62.js",
     "static/js/787.73fa73a0.chunk.js": "/static/js/787.73fa73a0.chunk.js",
     "static/media/mr_chef_image2.png": "/static/media/mr_chef_image2.2b07400df5e99029ea81.png",
     "static/media/mr_chef_image1.png": "/static/media/mr_chef_image1.42f00df67ede33342b38.png",
     "static/media/mr_chef_image3.png": "/static/media/mr_chef_image3.cd447947f030702afb1e.png",
+    "static/media/profile_AS.jpg": "/static/media/profile_AS.ebe482b743ef64182bef.jpg",
+    "static/media/Ajio_1.png": "/static/media/Ajio_1.0fa5c7089cbe4c12c79c.png",
+    "static/media/ShopClues_1.png": "/static/media/ShopClues_1.9f5b80940d8e43f1890f.png",
+    "static/media/ShopClues_3.png": "/static/media/ShopClues_3.69c702e0949277c8e599.png",
+    "static/media/ShopClues_2.png": "/static/media/ShopClues_2.7ea7bdff17cad4020021.png",
+    "static/media/Anannya-Saikia-Resume.pdf": "/static/media/Anannya-Saikia-Resume.82dd1f4f4773d2fc281c.pdf",
+    "static/media/Ajio_3.png": "/static/media/Ajio_3.be7fdbe3be0247a90f6c.png",
+    "static/media/Ajio_2.png": "/static/media/Ajio_2.10f570cda1762b81e587.png",
     "index.html": "/index.html",
-    "main.98d06afb.css.map": "/static/css/main.98d06afb.css.map",
-    "main.683ebcc3.js.map": "/static/js/main.683ebcc3.js.map",
+    "main.2c06e287.css.map": "/static/css/main.2c06e287.css.map",
+    "main.e918ee62.js.map": "/static/js/main.e918ee62.js.map",
     "787.73fa73a0.chunk.js.map": "/static/js/787.73fa73a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98d06afb.css",
-    "static/js/main.683ebcc3.js"
+    "static/css/main.2c06e287.css",
+    "static/js/main.e918ee62.js"
   ]
 }
