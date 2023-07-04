@@ -39,6 +39,12 @@ const Contact = () => {
         </div>
 
       </div>
+
+      <div>
+        <a href="https://github.com/anannyaSaikia">
+        <p>Built and Designed by Anannya Saikia</p>
+        </a>
+      </div>
     </div>
   )
 }
