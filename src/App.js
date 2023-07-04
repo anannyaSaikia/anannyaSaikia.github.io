@@ -8,6 +8,8 @@ import Home from './Components/Home';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 
+import AnannyaSaikiaResume from './Anannya-Saikia-Resume.pdf';
+
 function App() {
   const home = useRef(null);
   const about = useRef(null);
@@ -21,6 +23,11 @@ function App() {
       behavior: 'smooth'
     })
   }
+
+  const openNewWin = () => {
+    window.open('https://drive.google.com/file/d/1bVNrL1emeGZ7mMqdOvrLUcU53s6vc3PG/view?usp=drive_link', '_blank')
+  }
+
   return (
     <div className="App">
       <div id="nav-menu" className={style.navbar}>
@@ -29,34 +36,40 @@ function App() {
         </div>
         <div className={style.list}>
           <ul className={style.ul}>
-            <li className="nav-link.home" id={style.link} onClick={() => scrollToSection(home)}>Home</li>
-            <li className="nav-link.about" id={style.link} onClick={() => scrollToSection(about)}>About</li>
-            <li className="nav-link.skills" id={style.link} onClick={() => scrollToSection(skills)}>Skills</li>
-            <li className="nav-link.projects" id={style.link} onClick={() => scrollToSection(projects)}>Projects</li>
-            <li className="nav-link.contact" id={style.link} onClick={() => scrollToSection(contact)}>Contact</li>
+            <li className="nav-link home" id={style.link} onClick={() => scrollToSection(home)}>Home</li>
+            <li className="nav-link about" id={style.link} onClick={() => scrollToSection(about)}>About</li>
+            <li className="nav-link skills" id={style.link} onClick={() => scrollToSection(skills)}>Skills</li>
+            <li className="nav-link projects" id={style.link} onClick={() => scrollToSection(projects)}>Projects</li>
+            <li className="nav-link contact" id={style.link} onClick={() => scrollToSection(contact)}>Contact</li>
           </ul>
         </div>
-        <div >
-          <button class="nav-link resume" id="resume-button-1" className={style.resume_button}>Resume</button>
+        <div className="nav-link resume" >
+          <a id="resume-link-1"
+            href={AnannyaSaikiaResume}
+            download="Anannya-Saikia-Resume"
+            target="_blank"
+            rel="noopener noreferrer">
+            <button id='resume-button-1' className={style.resumebutton1}
+              onClick={openNewWin}
+            >Resume</button>
+          </a>
         </div>
-        {/*  <li className={style.link} onClick={() => scrollToSection(resume)}>Resume</li> */}
-
       </div>
 
       <div className={style.mainBody}>
-        <div id="home" style={{ height: "700px", paddingTop: "53px" }} ref={home}>
+        <div id="home" style={{ height: "700px" }} ref={home}>
           <Home />
         </div>
-        <div id="about" class="about section" style={{ height: "700px", paddingTop: "53px" }} ref={about}>
+        <div id="about" className="about section" style={{ height: "700px" }} ref={about}>
           <About />
         </div>
-        <div id="skills" style={{ height: "700px", paddingTop: "53px" }} ref={skills}>
+        <div id="skills" style={{ height: "700px" }} ref={skills}>
           <Skills />
         </div>
-        <div id="projects" style={{ height: "2100px", paddingTop: "53px" }} ref={projects}>
+        <div id="projects" style={{ height: "2100px" }} ref={projects}>
           <Projects />
         </div>
-        <div id="contact" style={{ height: "700px", paddingTop: "53px" }} ref={contact}>
+        <div id="contact" style={{ height: "700px" }} ref={contact}>
           <Contact />
         </div>
       </div>

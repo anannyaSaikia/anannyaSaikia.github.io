@@ -18,19 +18,24 @@ const Contact = () => {
       <div className={style.icons}>
 
         <div id="contact-email">
-          <a href="mailto: anannyasaikia1998@gmail.com"><img src="https://seeklogo.com/images/G/gmail-icon-logo-9ADB17D3F3-seeklogo.com.png" alt="gmail" /></a>
+          <a id="contact-email" href="mailto: anannyasaikia1998@gmail.com">
+            <img src="https://seeklogo.com/images/G/gmail-icon-logo-9ADB17D3F3-seeklogo.com.png" alt="gmail" />
+          </a>
         </div>
 
         <div id="contact-linkedin">
           <a href="https://www.linkedin.com/in/anannya-saikia-521363239/"><img src="https://static-00.iconduck.com/assets.00/linkedin-icon-1024x1024-z5dvl47c.png" alt="linkedIn" /></a>
         </div>
+        {/*         //https://static-00.iconduck.com/assets.00/linkedin-icon-1024x1024-z5dvl47c.png */}
 
         <div id="contact-github">
-          <a href="https://github.com/anannyaSaikia"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF72pIveLkF8gozEwJGsGQzUE0Dj3Ygkk6qA&usqp=CAU" alt="github" /></a>
+          <a href="https://github.com/anannyaSaikia"><img src="https://seeklogo.com/images/G/github-logo-5F384D0265-seeklogo.com.png" alt="github" /></a>
         </div>
 
         <div id="contact-phone">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIeB7gj1vUMOblVroHq60PWxq15e-781H44Q&usqp=CAU" alt="+91 9531067101" />
+          <a id="contact-phone" href="tel:+919531067101">
+            <img src="https://seeklogo.com/images/P/phone-logo-CA0ABEDEEB-seeklogo.com.png" alt="+919531067101" />
+          </a>
         </div>
 
       </div>

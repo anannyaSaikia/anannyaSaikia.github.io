@@ -1,5 +1,5 @@
 .contact{
-    padding-top: 20px;
+    padding-top: 100px;
 }
 
 .heading{
@@ -10,14 +10,17 @@
 }
 
 .heading > img{
-    width: 200px;
+    width: 150px;
+    padding: 20px;
+    border-radius: 50%;
 }
 
 .para{
     width: 700px;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 10px;
     padding: 30px;
+    font-size: x-large;
     box-shadow: rgba(198, 102, 102, 0.35) 0px 5px 15px;
 }
 

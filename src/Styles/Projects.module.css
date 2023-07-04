@@ -1,11 +1,11 @@
 .projects{
-    padding-top: 10px;
+    padding-top: 100px;
 }
 
 .catalouge {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-top: 5px;
+    margin-top: -30px;
 }
 
 .catalouge div{
@@ -15,8 +15,9 @@
 }
 
 .catalouge > div{
-    padding: 0px;
-    height : 85%;
+    width : 550px;
+    padding: 5px;
+    height : 90%;
     border: 1px solid rgb(179, 131, 131);
     border-radius: 10px;
     box-shadow: rgba(179, 131, 131) 0px 5px 15px;
@@ -32,10 +33,11 @@
     width : 200px;
     height: 100%;
     border-radius: 10px;
+    overflow: hidden;
 }
 .first{
     left : 0px;
-    opacity: 0.1;
+    opacity: 0.05;
 }
 .first:hover{
     border: .8px solid rgb(202, 110, 110);
@@ -46,18 +48,22 @@
 }
 
 .mid{
-    left: 28%;
+    border: .8px solid rgb(202, 110, 110);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    left: 30%;
+    opacity: 1;
 }
 .mid:hover{
     border: .8px solid rgb(202, 110, 110);
     transform: scale(1.1);
     transition: ease .6s;
+    opacity: 1; 
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .last{
     right : 0px;
-    opacity: .1;
+    opacity: 0.05;
 }
 .last:hover{
     border: .8px solid rgb(202, 110, 110);
@@ -65,4 +71,19 @@
     transform: scale(1.1);
     transition: ease .6s;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.bottom_icons{
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.bottom_icons:hover{
+    transform: scale(1.1);
+    transition: ease 0.5s;
+}
+
+.project-title{
+   color: azure; 
 }

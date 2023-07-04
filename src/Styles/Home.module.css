@@ -6,20 +6,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 70px;
+    padding-top: 150px;
 }
 
 .intro {
-    width: 500px;
+    width: 550px;
 }
 
 #profile> img{
     margin-top: 50px;
     margin-left: 80px;
     margin-right: 20px;
-    border: 1px solid teal;
+    border: 1px solid rgba(179, 131, 131);
     border-radius: 20px;
     width: 300px;
+    box-shadow: rgb(240, 187, 187);
 }
 
 #profile > img:hover{
@@ -37,6 +38,10 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+}
+
+.intro > p {
+    font-size: x-large;
 }
 
 /* .typewriter {
