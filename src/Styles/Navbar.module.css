@@ -15,6 +15,10 @@
     z-index: 1;
 }
 
+.logo{
+    cursor: pointer;
+}
+
 .ul{
     display: flex;
     list-style: none;

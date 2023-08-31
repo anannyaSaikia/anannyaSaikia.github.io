@@ -18,9 +18,10 @@ const Contact = () => {
       <div className={style.icons}>
 
         <div>
-          <a id="contact-email" href="mailto: anannyasaikia1998@gmail.com">
+          <a href="mailto: anannyasaikia1998@gmail.com">
             <img src="https://seeklogo.com/images/G/gmail-icon-logo-9ADB17D3F3-seeklogo.com.png" alt="gmail" />
           </a>
+          <p id="contact-email">anannyasaikia1998@gmail.com</p>
         </div>
 
         <div id="contact-linkedin">
@@ -33,16 +34,17 @@ const Contact = () => {
         </div>
 
         <div>
-          <a id="contact-phone" href="tel:+919531067101">
+          <a href="tel:+919531067101">
             <img src="https://seeklogo.com/images/P/phone-logo-CA0ABEDEEB-seeklogo.com.png" alt="+919531067101" />
           </a>
+          <p id="contact-phone">+91 9531067101</p>
         </div>
 
       </div>
 
       <div>
-        <a href="https://github.com/anannyaSaikia" style={{textDecoration : "none", color : "white"}}>
-        <p>Designed and Built by Anannya Saikia</p>
+        <a href="https://github.com/anannyaSaikia" style={{ textDecoration: "none", color: "white" }}>
+          <p>Designed and Built by Anannya Saikia</p>
         </a>
       </div>
     </div>

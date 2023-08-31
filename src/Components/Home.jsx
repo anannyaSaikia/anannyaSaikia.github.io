@@ -10,7 +10,7 @@ const Home = () => {
 
         <div className={style.intro}>
           <div>
-            <h1 id="user-detail-name">Hello! This is Anannya Saikia</h1>
+            <h1 className={style.userDetailName}>Hello! This is Anannya Saikia</h1>
             <img className="home-img" src="https://media3.giphy.com/media/w1OBpBd7kJqHrJnJ13/giphy.gif?cid=6c09b9528b33f4329eac26608ec8e54c34ff682d7d1ae5cf&rid=giphy.gif&ct=s" alt="Hello" />
           </div>
 

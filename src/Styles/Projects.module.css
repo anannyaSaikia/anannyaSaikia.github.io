@@ -1,89 +1,309 @@
-.projects{
-    padding-top: 100px;
+@media all and (min-width : 1024px){
+    .projects{
+        padding-top: 100px;
+    }
+    
+    .catalouge {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: -30px;
+    }
+    
+    .catalouge div{
+        margin: auto;
+        width: 90%;
+        height: 300px;
+    }
+    
+    .catalouge > div{
+        width : 550px;
+        padding: 5px;
+        height : 90%;
+        border: 1px solid rgb(179, 131, 131);
+        border-radius: 10px;
+        box-shadow: rgba(179, 131, 131) 0px 5px 15px;
+    }
+    
+    #singleProject{
+        position: relative;
+        padding-top: 10px;
+    } 
+    
+    #singleProject > img{
+        position: absolute;
+        width : 200px;
+        height: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .first{
+        left : 0px;
+        opacity: 0.05;
+    }
+    .first:hover{
+        border: .8px solid rgb(202, 110, 110);
+        opacity: 1;
+        transform: scale(1.1);
+        transition: ease .6s;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+    
+    .mid{
+        border: .8px solid rgb(202, 110, 110);
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        left: 30%;
+        opacity: 1;
+    }
+    .mid:hover{
+        border: .8px solid rgb(202, 110, 110);
+        transform: scale(1.1);
+        transition: ease .6s;
+        opacity: 1; 
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+    
+    .last{
+        right : 0px;
+        opacity: 0.05;
+    }
+    .last:hover{
+        border: .8px solid rgb(202, 110, 110);
+        opacity: 1; 
+        transform: scale(1.1);
+        transition: ease .6s;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+    
+    .bottom_icons{
+        width: 30px;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+    
+    .bottom_icons:hover{
+        transform: scale(1.1);
+        transition: ease 0.5s;
+    }
+    
+    .project-title{
+       color: azure; 
+    }
+
+    .github{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .github > *{
+        margin: auto;
+        padding-top: 20px;
+    }
 }
 
-.catalouge {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: -30px;
+@media all and (min-width : 768px) and (max-width : 1023px){
+    .projects{
+        padding-top: 150px;
+    }
+    
+    .catalouge {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: -30px;
+    }
+    
+    .catalouge div{
+        margin: auto;
+        width: 90%;
+        height: 300px;
+    }
+    
+    .catalouge > div{
+        width : 550px;
+        padding: 5px;
+        height : 90%;
+        border: 1px solid rgb(179, 131, 131);
+        border-radius: 10px;
+        box-shadow: rgba(179, 131, 131) 0px 5px 15px;
+    }
+    
+    #singleProject{
+        position: relative;
+        padding-top: 10px;
+    } 
+    
+    #singleProject > img{
+        position: absolute;
+        width : 200px;
+        height: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .first{
+        left : 0px;
+        opacity: 0.05;
+    }
+    .first:hover{
+        border: .8px solid rgb(202, 110, 110);
+        opacity: 1;
+        transform: scale(1.1);
+        transition: ease .6s;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+    
+    .mid{
+        border: .8px solid rgb(202, 110, 110);
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        left: 30%;
+        opacity: 1;
+    }
+    .mid:hover{
+        border: .8px solid rgb(202, 110, 110);
+        transform: scale(1.1);
+        transition: ease .6s;
+        opacity: 1; 
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+    
+    .last{
+        right : 0px;
+        opacity: 0.05;
+    }
+    .last:hover{
+        border: .8px solid rgb(202, 110, 110);
+        opacity: 1; 
+        transform: scale(1.1);
+        transition: ease .6s;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+    
+    .bottom_icons{
+        width: 30px;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+    
+    .bottom_icons:hover{
+        transform: scale(1.1);
+        transition: ease 0.5s;
+    }
+    
+    .project-title{
+       color: azure; 
+    }
+
+    .github{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .github > *{
+        margin: auto;
+        padding-top: 20px;
+        width: auto;
+    }
 }
 
-.catalouge div{
-    margin: auto;
-    width: 90%;
-    height: 300px;
-}
+@media all and (max-width : 767px){
+    .projects{
+        padding-top: 150px;
+    }
+    
+    .catalouge {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: -30px;
+    }
+    
+    .catalouge div{
+        margin: auto;
+        width: 90%;
+        height: 250px;
+    }
+    
+    .catalouge > div{
+        width : 450px;
+        padding: 5px;
+        height : 90%;
+        border: 1px solid rgb(179, 131, 131);
+        border-radius: 10px;
+        box-shadow: rgba(179, 131, 131) 0px 5px 15px;
+    }
+    
+    #singleProject{
+        position: relative;
+        padding-top: 10px;
+    } 
+    
+    #singleProject > img{
+        position: absolute;
+        width : 150px;
+        height: 90%;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .first{
+        left : 0px;
+        opacity: 0.05;
+    }
+    .first:hover{
+        border: .8px solid rgb(202, 110, 110);
+        opacity: 1;
+        transform: scale(1.1);
+        transition: ease .6s;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+    
+    .mid{
+        border: .8px solid rgb(202, 110, 110);
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        left: 30%;
+        opacity: 1;
+    }
+    .mid:hover{
+        border: .8px solid rgb(202, 110, 110);
+        transform: scale(1.1);
+        transition: ease .6s;
+        opacity: 1; 
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+    
+    .last{
+        right : 0px;
+        opacity: 0.05;
+    }
+    .last:hover{
+        border: .8px solid rgb(202, 110, 110);
+        opacity: 1; 
+        transform: scale(1.1);
+        transition: ease .6s;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+    
+    .bottom_icons{
+        width: 30px;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+    
+    .bottom_icons:hover{
+        transform: scale(1.1);
+        transition: ease 0.5s;
+    }
+    
+    .project-title{
+       color: azure; 
+    }
 
-.catalouge > div{
-    width : 550px;
-    padding: 5px;
-    height : 90%;
-    border: 1px solid rgb(179, 131, 131);
-    border-radius: 10px;
-    box-shadow: rgba(179, 131, 131) 0px 5px 15px;
-}
+    .github{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 
-#singleProject{
-    position: relative;
-    padding-top: 10px;
-} 
+    .github > *{
+        margin: auto;
+        padding-top: 20px;
+        width: 80%;
+        height: 50%;
+    }
 
-#singleProject > img{
-    position: absolute;
-    width : 200px;
-    height: 100%;
-    border-radius: 10px;
-    overflow: hidden;
-}
-.first{
-    left : 0px;
-    opacity: 0.05;
-}
-.first:hover{
-    border: .8px solid rgb(202, 110, 110);
-    opacity: 1;
-    transform: scale(1.1);
-    transition: ease .6s;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-}
-
-.mid{
-    border: .8px solid rgb(202, 110, 110);
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    left: 30%;
-    opacity: 1;
-}
-.mid:hover{
-    border: .8px solid rgb(202, 110, 110);
-    transform: scale(1.1);
-    transition: ease .6s;
-    opacity: 1; 
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-}
-
-.last{
-    right : 0px;
-    opacity: 0.05;
-}
-.last:hover{
-    border: .8px solid rgb(202, 110, 110);
-    opacity: 1; 
-    transform: scale(1.1);
-    transition: ease .6s;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-}
-
-.bottom_icons{
-    width: 30px;
-    border-radius: 50%;
-    margin-left: 10px;
-}
-
-.bottom_icons:hover{
-    transform: scale(1.1);
-    transition: ease 0.5s;
-}
-
-.project-title{
-   color: azure; 
 }

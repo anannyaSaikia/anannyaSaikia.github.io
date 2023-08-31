@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="App">
       <div id="nav-menu" className={style.navbar}>
-        <div className={style.logo}>
+        <div className={style.logo} onClick={() => scrollToSection(home)}>
           <h3>Anannya</h3>
         </div>
         <div className={style.list}>

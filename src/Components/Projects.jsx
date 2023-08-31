@@ -10,6 +10,10 @@ import mrchef3 from '../Images/mr_chef_image3.png';
 import ShopClues_1 from '../Images/ShopClues_1.png';
 import ShopClues_2 from '../Images/ShopClues_2.png';
 import ShopClues_3 from '../Images/ShopClues_3.png';
+import Portfolio_1 from '../Images/Portfolio_1.png';
+import Portfolio_2 from '../Images/Portfolio_2.png';
+import Portfolio_3 from '../Images/Portfolio_3.png';
+
 
 import GitHubCalendar from 'react-github-calendar';
 
@@ -117,14 +121,14 @@ const Projects = () => {
 
         <div className="project-card" style={{ height: "90%" }}>
           <div id={style.singleProject}>
-            <img className={style.mid} src="" alt="image1" />
-            <img className={style.first} src="" alt="image2" />
-            <img className={style.last} src="" alt="image3" />
+            <img className={style.mid} src={Portfolio_1} alt="image1" />
+            <img className={style.first} src={Portfolio_2} alt="image2" />
+            <img className={style.last} src={Portfolio_3} alt="image3" />
           </div>
           <div style={{ height: "150px" }}>
             <h3 className="project-title">PERSONAL PORTFOLIO</h3>
             <p className="project-description">
-              It's a portfolio app showcasing my work and achievements in th field of web development
+              It's a portfolio app showcasing my work and achievements in the field of web development
             </p>
             <p className="project-tech-stack">
               [HTML, CSS, JavaScript, React]
@@ -145,13 +149,9 @@ const Projects = () => {
         </div>
 
       </div>
-      <h1 style={{ paddingTop: "30px" }}>My Github Stats & Contributions : </h1>
-      <div style={{ display: "block", paddingTop: "20px" }} id="github">
-       
-        {/* <div style={{ paddingTop: "20px" }}>
-          <img className="react-activity-calendar" src="" alt="imgAct" />
-        </div> */}
-        
+      <h2 style={{ paddingTop: "30px" }}>My Github Stats & Contributions</h2>
+
+      {/* <div style={{ display: "block", paddingTop: "20px" }} className={style.github}>        
         <div style={{ display: "flex", margin: "auto", justifyContent: "space-evenly", paddingTop: "20px" }}>
           <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=anannyaSaikia&theme=rose&border_radius=5" alt="img1" />
           <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=anannyaSaikia&theme=rose&show_icons=true" alt="img2" />
@@ -159,7 +159,7 @@ const Projects = () => {
         <div style={{ paddingTop: "20px" }}>
           <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anannyaSaikia&layout=compact&theme=rose" alt="img3" />
         </div>
-        {/* <GitHubCalendar username="anannyaSaikia" /> */}
+        
         <div style={{ display: "flex", justifyContent: "center", paddingTop: "20px" }}>
           <GitHubCalendar className="react-activity-calendar"
             fontSize={17}
@@ -167,7 +167,26 @@ const Projects = () => {
             year={2023}
             username='anannyaSaikia' />
         </div>
+      </div> */}
+
+      <div className={style.github}>
+        {/* <div style={{ display: "flex", margin: "auto", justifyContent: "space-evenly", paddingTop: "20px" }}> */}
+          <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=anannyaSaikia&theme=rose&border_radius=5" alt="img1" />
+          <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=anannyaSaikia&theme=rose&show_icons=true" alt="img2" />
+        {/* </div>
+        <div style={{ paddingTop: "20px" }}> */}
+          <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anannyaSaikia&layout=compact&theme=rose" alt="img3" />
+        {/* </div>
+
+        <div style={{ display: "flex", justifyContent: "center", paddingTop: "20px" }}> */}
+          <GitHubCalendar className="react-activity-calendar"
+            fontSize={17}
+            blockSize={15}
+            year={2023}
+            username='anannyaSaikia' />
+        {/* </div> */}
       </div>
+
     </div>
   )
 }
