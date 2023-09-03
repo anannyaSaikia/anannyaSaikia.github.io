@@ -5,12 +5,12 @@ const Contact = () => {
   return (
     <div className={style.contact}>
       <div className={style.heading}>
-        <h1>Connect with me</h1>
+        <p className={style.subheading}>Connect with me</p>
         <img src="https://media.tenor.com/oC_oaqeZHHoAAAAC/handshake-virtual-hug.gif" alt="virtual_handshake" />
       </div>
       <div className={style.para}>
         <p>
-          I am currently looking for opportunities to work with tech enthusiasts.
+          I am currently looking for opportunities to work with and learn from tech enthusiasts and experts.
           Please drop a mail or connect with me through linkedIn. Looking forward for your valuable response.
         </p>
       </div>

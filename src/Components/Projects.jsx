@@ -21,18 +21,18 @@ import GitHubCalendar from 'react-github-calendar';
 const Projects = () => {
   return (
     <div className={style.projects}>
-      <h1>My Projects Catalogue</h1>
+      <p className={style.heading}>My Projects Catalogue</p>
       <div className={style.catalouge}>
 
         {/* project 1 */}
 
         <div className="project-card" >
           <div id={style.singleProject}>
-            <img className={style.mid} src={mrchef2} alt="image2" />
-            <img className={style.first} src={mrchef1} alt="image1" />
+            <img className={style.mid} src={mrchef2} alt="image1" />
+            <img className={style.first} src={mrchef1} alt="image2" />
             <img className={style.last} src={mrchef3} alt="image3" />
           </div>
-          <div style={{ height: "150px" }}>
+          <div className={style.projectDesc}>
             <h3 className="project-title">MR.CHEF</h3>
             <p className="project-description">
               Mr Chef is an online application for ordering meal
@@ -41,7 +41,7 @@ const Projects = () => {
               [HTML, CSS, JavaScript, React, React-Router, Redux, Chakra UI]
             </p>
           </div>
-          <div style={{ display: "flex", justifyContent: "center", height: "100px" }}>
+          <div className={style.deployDesc}>
             <p className="project-github-link">
               <a href="https://github.com/Sunil-JJ/mrchefproject">
                 <img className={style.bottom_icons} src="https://seeklogo.com/images/G/github-logo-5F384D0265-seeklogo.com.png" alt="github" />
@@ -57,13 +57,13 @@ const Projects = () => {
 
         {/* project 2 */}
 
-        <div className="project-card" style={{ height: "90%" }}>
+        <div className="project-card" /* style={{ height: "90%" }} */>
           <div id={style.singleProject}>
             <img className={style.mid} src={Ajio_1} alt="image1" />
             <img className={style.first} src={Ajio_2} alt="image2" />
             <img className={style.last} src={Ajio_3} alt="image3" />
           </div>
-          <div style={{ height: "150px" }}>
+          <div className={style.projectDesc}>
             <h3 className="project-title">AJIO</h3>
             <p className="project-description">
               Ajio is an online shopping plateform for clothings, footware and other accessories
@@ -72,7 +72,7 @@ const Projects = () => {
               [HTML, CSS, JavaScript, BootStrap]
             </p>
           </div>
-          <div style={{ display: "flex", justifyContent: "center", height: "100px" }}>
+          <div className={style.deployDesc}>
             <p className="project-github-link">
               <a href="https://github.com/samarthbsss/Ajio-Clone">
                 <img className={style.bottom_icons} src="https://seeklogo.com/images/G/github-logo-5F384D0265-seeklogo.com.png" alt="github" />
@@ -88,13 +88,13 @@ const Projects = () => {
 
         {/* project 3 */}
 
-        <div className="project-card" style={{ height: "90%" }}>
+        <div className="project-card" /* style={{ height: "90%" }} */>
           <div id={style.singleProject}>
             <img className={style.mid} src={ShopClues_1} alt="image1" />
             <img className={style.first} src={ShopClues_2} alt="image2" />
             <img className={style.last} src={ShopClues_3} alt="image3" />
           </div>
-          <div style={{ height: "150px" }}>
+          <div className={style.projectDesc}>
             <h3 className="project-title">SHOPCLUES.COM</h3>
             <p className="project-description">
               An e-marketplace with clothings, home and kitchen appliances
@@ -103,7 +103,7 @@ const Projects = () => {
               [HTML, CSS, JavaScript, BootStrap]
             </p>
           </div>
-          <div style={{ display: "flex", justifyContent: "center", height: "100px" }}>
+          <div className={style.deployDesc}>
             <p className="project-github-link">
               <a href="https://github.com/ShubhamRaut187/Shopclues.com-Masai_Unit-5_CW">
                 <img className={style.bottom_icons} src="https://seeklogo.com/images/G/github-logo-5F384D0265-seeklogo.com.png" alt="github" />
@@ -119,13 +119,13 @@ const Projects = () => {
 
         {/* project 4 */}
 
-        <div className="project-card" style={{ height: "90%" }}>
+        <div className="project-card" /* style={{ height: "90%" }} */>
           <div id={style.singleProject}>
             <img className={style.mid} src={Portfolio_1} alt="image1" />
             <img className={style.first} src={Portfolio_2} alt="image2" />
             <img className={style.last} src={Portfolio_3} alt="image3" />
           </div>
-          <div style={{ height: "150px" }}>
+          <div className={style.projectDesc}>
             <h3 className="project-title">PERSONAL PORTFOLIO</h3>
             <p className="project-description">
               It's a portfolio app showcasing my work and achievements in the field of web development
@@ -134,7 +134,7 @@ const Projects = () => {
               [HTML, CSS, JavaScript, React]
             </p>
           </div>
-          <div style={{ display: "flex", justifyContent: "center", height: "100px" }}>
+          <div className={style.deployDesc}>
             <p className="project-github-link">
               <a href="https://github.com/anannyaSaikia/anannyaSaikia.github.io">
                 <img className={style.bottom_icons} src="https://seeklogo.com/images/G/github-logo-5F384D0265-seeklogo.com.png" alt="github" />
@@ -149,7 +149,7 @@ const Projects = () => {
         </div>
 
       </div>
-      <h2 style={{ paddingTop: "30px" }}>My Github Stats & Contributions</h2>
+      <p className={style.githubHead}>My Github Stats & Contributions</p>
 
       {/* <div style={{ display: "block", paddingTop: "20px" }} className={style.github}>        
         <div style={{ display: "flex", margin: "auto", justifyContent: "space-evenly", paddingTop: "20px" }}>
@@ -171,19 +171,19 @@ const Projects = () => {
 
       <div className={style.github}>
         {/* <div style={{ display: "flex", margin: "auto", justifyContent: "space-evenly", paddingTop: "20px" }}> */}
-          <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=anannyaSaikia&theme=rose&border_radius=5" alt="img1" />
-          <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=anannyaSaikia&theme=rose&show_icons=true" alt="img2" />
+        <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=anannyaSaikia&theme=rose&border_radius=5" alt="img1" />
+        <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=anannyaSaikia&theme=rose&show_icons=true" alt="img2" />
         {/* </div>
         <div style={{ paddingTop: "20px" }}> */}
-          <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anannyaSaikia&layout=compact&theme=rose" alt="img3" />
+        <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anannyaSaikia&layout=compact&theme=rose" alt="img3" />
         {/* </div>
 
         <div style={{ display: "flex", justifyContent: "center", paddingTop: "20px" }}> */}
-          <GitHubCalendar className="react-activity-calendar"
-            fontSize={17}
-            blockSize={15}
-            year={2023}
-            username='anannyaSaikia' />
+        <GitHubCalendar className="react-activity-calendar"
+          fontSize={17}
+          blockSize={15}
+          year={2023}
+          username='anannyaSaikia' />
         {/* </div> */}
       </div>
 

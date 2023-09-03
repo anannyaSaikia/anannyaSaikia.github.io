@@ -3,30 +3,43 @@
         padding-top: 100px;
     }
     
+    .heading {
+        font-weight: bold;
+        font-size: xx-large;
+        font-family: cursive;
+        margin-bottom: 20px;
+    }
+
     .catalouge {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin-top: -30px;
+        /* margin-top: -30px; */
     }
     
-    .catalouge div{
+    /* .catalouge div{
         margin: auto;
-        width: 90%;
-        height: 300px;
-    }
+    } */
     
     .catalouge > div{
+        margin: auto;
+        margin-top: 10px;
         width : 550px;
-        padding: 5px;
-        height : 90%;
+        padding: 20px;
         border: 1px solid rgb(179, 131, 131);
         border-radius: 10px;
         box-shadow: rgba(179, 131, 131) 0px 5px 15px;
     }
     
+    .projectDesc{
+        height: 130px;
+        padding: 10px;
+    }
+
     #singleProject{
         position: relative;
         padding-top: 10px;
+        margin-bottom: 20px;
+        height: 300px;
     } 
     
     #singleProject > img{
@@ -87,6 +100,18 @@
     
     .project-title{
        color: azure; 
+    }
+
+    .deployDesc{
+        display: flex;
+        justify-content: center;
+    }
+
+    .githubHead{
+        font-weight: bold;
+        font-style: cursive;
+        font-size: x-large;
+        padding-top: 30px;
     }
 
     .github{
@@ -102,33 +127,48 @@
 
 @media all and (min-width : 768px) and (max-width : 1023px){
     .projects{
-        padding-top: 150px;
+        padding-top: 100px;
     }
     
+    .heading {
+        font-weight: bold;
+        font-size: x-large;
+        font-family: cursive;
+        margin-bottom: 20px;
+    }
+
     .catalouge {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin-top: -30px;
     }
     
-    .catalouge div{
+    /* .catalouge div{
         margin: auto;
         width: 90%;
         height: 300px;
-    }
+    } */
     
     .catalouge > div{
-        width : 550px;
-        padding: 5px;
-        height : 90%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width : 70%;
+        padding: 20px;
         border: 1px solid rgb(179, 131, 131);
         border-radius: 10px;
         box-shadow: rgba(179, 131, 131) 0px 5px 15px;
     }
     
-    #singleProject{
+    .projectDesc{
+        height: 100px;
+        margin-top: 30px;
+    }
+
+    #singleProject{        
         position: relative;
         padding-top: 10px;
+        margin-bottom: 20px;
+        height: 300px;
     } 
     
     #singleProject > img{
@@ -191,6 +231,18 @@
        color: azure; 
     }
 
+    .deployDesc{
+        display: flex;
+        justify-content: center;
+    }
+
+    .githubHead{
+        font-weight: bold;
+        font-style: cursive;
+        font-size: x-large;
+        padding-top: 30px;
+    }
+
     .github{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -199,31 +251,39 @@
     .github > *{
         margin: auto;
         padding-top: 20px;
-        width: auto;
+        width: 95%;
+        height: 75%;
     }
 }
 
 @media all and (max-width : 767px){
     .projects{
-        padding-top: 150px;
+        padding-top: 70px;
     }
     
+    .heading {
+        font-weight: bold;
+        font-size: large;
+        font-family: cursive;
+        margin-bottom: 20px;
+    }
+
     .catalouge {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin-top: -30px;
     }
     
-    .catalouge div{
+    /* .catalouge div{
         margin: auto;
         width: 90%;
         height: 250px;
-    }
+    } */
     
     .catalouge > div{
-        width : 450px;
+        width : 350px;
         padding: 5px;
-        height : 90%;
+        margin: auto;
+        margin-bottom: 10px;
         border: 1px solid rgb(179, 131, 131);
         border-radius: 10px;
         box-shadow: rgba(179, 131, 131) 0px 5px 15px;
@@ -231,16 +291,23 @@
     
     #singleProject{
         position: relative;
-        padding-top: 10px;
+        padding: 10px;
+        margin-bottom: 10px;
+        height: 200px;
     } 
     
     #singleProject > img{
         position: absolute;
-        width : 150px;
+        width : 120px;
         height: 90%;
         border-radius: 10px;
         overflow: hidden;
     }
+
+    /* .projectDesc{
+        height: 150px;
+    } */
+
     .first{
         left : 0px;
         opacity: 0.05;
@@ -294,6 +361,18 @@
        color: azure; 
     }
 
+    .deployDesc{
+        display: flex;
+        justify-content: center;
+    }
+
+    .githubHead{
+        font-weight: bold;
+        font-style: cursive;
+        font-size: large;
+        padding-top: 30px;
+    }
+
     .github{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -302,8 +381,8 @@
     .github > *{
         margin: auto;
         padding-top: 20px;
-        width: 80%;
-        height: 50%;
+        width: 98%;
+        height: 75%;
     }
 
 }

@@ -1,45 +1,59 @@
-@media all and (min-width : 1024px){
+@media all and (min-width : 1024px) {
     .skills {
         height: 100%;
         padding-top: 100px;
-        background-image: url(https://th.bing.com/th/id/R7aac0a65c2f22ba34702ab7413afd7aa?rik=3QLaVVVlQ8ByPQ&riu=http%3A%2F%2Fperfonec.com%2Fwp-content%2Fuploads%2F2019%2F03%2Fhome-gif.gif&ehk=t5qZ3Kod64AaXvjumGsEYHoPvBh7swqcZROIBTCNiow%3D&risl=&pid=ImgRaw);
+        /* background-image: url(https://th.bing.com/th/id/R7aac0a65c2f22ba34702ab7413afd7aa?rik=3QLaVVVlQ8ByPQ&riu=http%3A%2F%2Fperfonec.com%2Fwp-content%2Fuploads%2F2019%2F03%2Fhome-gif.gif&ehk=t5qZ3Kod64AaXvjumGsEYHoPvBh7swqcZROIBTCNiow%3D&risl=&pid=ImgRaw);
         background-repeat: no-repeat;
-        background-position: center;
-        background-position-y: 20%;
+        background-position: center; */
+        /* background-position-y: 200; */
     }
-    
+
     .desc {
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
-    
+
+    .heading {
+        font-weight: bold;
+        font-size: xx-large;
+        font-family: cursive;
+    }
+
     .desc>div {
         margin: auto;
+        width: auto;
+        height: 300px;
         margin-top: 40px;
-        padding: 20px;
+        padding: 50px;
         border-radius: 20px;
         background-color: white;
         opacity: 0.9;
         box-shadow: rgba(198, 102, 102, 0.35) 0px 5px 15px;
-        color:rgb(247, 180, 180);
+        color: rgb(247, 180, 180);
         font-size: x-large;
     }
-    
+
     .desc>div:hover {
         opacity: 1.0;
     }
-    
+
     /* .desc>div > *{
         opacity: 1.0;
     } */
-    
+
     .desc>div:hover {
         border: 1px solid rgb(202, 110, 110);
         transform: scale(1.1);
         transition: ease .5s;
     }
-    
+
+    .title{
+        font-size: larger;
+        font-weight: bold;
+        padding: 10px;
+    }
+
     /* .desc>div {
         border: 1px solid #03A9F3;
     
@@ -71,42 +85,49 @@
             height: calc(100% + 9px);
         }
     } */
-    
+
     .skills img {
         width: 50px;
     }
-    
+
     #techstack {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         align-items: center;
+        margin-top: 30px;
     }
-    
+
     #techstack>div {
         margin: auto;
     }
-    
+
     #techstack img {
-        width: 55px;
-        height: 50px;
+       /*  width: 55px;
+        height: 50px; */
+        margin: auto;
     }
-    
+
     #tools {
         display: block;
         width: 400px;
         align-items: center;
     }
-    
+
     .toolsList {
         display: flex;
+        margin-top: 30px;
     }
-    
+
     .toolsList>div {
+        margin: auto;
+    }
+
+    .toolsList img{
         margin: auto;
     }
 }
 
-@media all and (min-width : 768px) and (max-width : 1023px){
+@media all and (min-width : 768px) and (max-width : 1023px) {
     .skills {
         height: 100%;
         width: 100%;
@@ -117,13 +138,25 @@
         background-position: center;
         background-position-y: 40%;
     }
-    
+
     .desc {
         display: block;
         justify-content: space-around;
         align-items: center;
     }
-    
+
+    .heading {
+        font-weight: bold;
+        font-size: x-large;
+        font-family: cursive;
+    }
+
+    .title{
+        font-size: larger;
+        font-weight: bold;
+        padding: 10px;
+    }
+
     .desc>div {
         width: 90%;
         margin: auto;
@@ -133,25 +166,25 @@
         background-color: white;
         opacity: 1.0;
         box-shadow: rgba(198, 102, 102, 0.35) 0px 5px 15px;
-        color:rgb(247, 180, 180);
+        color: rgb(247, 180, 180);
         font-size: x-large;
         font-weight: bold;
     }
-    
+
     /* .desc>div:hover {
         opacity: 1.0;
     } */
-    
+
     /* .desc>div > *{
         opacity: 1.0;
     } */
-    
+
     /* .desc>div:hover {
         border: 1px solid rgb(202, 110, 110);
         transform: scale(1.1);
         transition: ease .5s;
     } */
-    
+
     /* .desc>div {
         border: 1px solid #03A9F3;
     
@@ -183,60 +216,78 @@
             height: calc(100% + 9px);
         }
     } */
-    
+
     .skills img {
         width: 50px;
     }
-    
+
     #techstack {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         align-items: center;
     }
-    
+
     #techstack>div {
         margin: auto;
     }
-    
+
     #techstack img {
-        width: 55px;
-        height: 50px;
+       /*  width: 55px;
+        height: 50px; */
+        margin: auto;
     }
-    
+
     #tools {
         display: block;
         width: 400px;
         align-items: center;
     }
-    
+
     .toolsList {
         display: flex;
+        margin-top: 30px;
     }
-    
+
     .toolsList>div {
+        margin: auto;
+    }
+
+    .toolsList img{
         margin: auto;
     }
 }
 
-@media all and (max-width : 767px){
+@media all and (max-width : 767px) {
     .skills {
         height: 100%;
-        width : 100%;
-        padding-top: 100px;
+        width: 100%;
+        padding-top: 70px;
         /* background-image: url(https://th.bing.com/th/id/R7aac0a65c2f22ba34702ab7413afd7aa?rik=3QLaVVVlQ8ByPQ&riu=http%3A%2F%2Fperfonec.com%2Fwp-content%2Fuploads%2F2019%2F03%2Fhome-gif.gif&ehk=t5qZ3Kod64AaXvjumGsEYHoPvBh7swqcZROIBTCNiow%3D&risl=&pid=ImgRaw); */
         background-repeat: no-repeat;
         background-position: center;
         background-position-y: 20%;
     }
-    
+
     .desc {
         display: block;
         /* justify-content: space-around; */
         align-items: center;
     }
-    
+     
+    .title{
+        font-size: larger;
+        font-weight: bold;
+        padding: 10px;
+    }
+
+    .heading {
+        font-weight: bold;
+        font-size: large;
+        font-family: cursive;
+    }
+
     .desc>div {
-        width : 85%;
+        width: 85%;
         margin: auto;
         margin-top: 40px;
         padding: 20px;
@@ -244,24 +295,24 @@
         background-color: white;
         opacity: 1.0;
         box-shadow: rgba(198, 102, 102, 0.35) 0px 5px 15px;
-        color:rgb(247, 180, 180);
+        color: rgb(247, 180, 180);
         font-size: small;
     }
-    
+
     /*.desc>div:hover {
         opacity: 1.0;
     } */
-    
+
     /* .desc>div > *{
         opacity: 1.0;
     } */
-    
+
     /* .desc>div:hover {
         border: 1px solid rgb(202, 110, 110);
         transform: scale(1.1);
         transition: ease .5s;
     } */
-    
+
     /* .desc>div {
         border: 1px solid #03A9F3;
     
@@ -293,38 +344,44 @@
             height: calc(100% + 9px);
         }
     } */
-    
+
     .skills img {
         width: 35px;
     }
-    
+
     #techstack {
         display: grid;
-        width : 100%;
+        width: 100%;
         grid-template-columns: repeat(5, 1fr);
         align-items: center;
     }
-    
+
     #techstack>div {
         margin: auto;
     }
-    
+
     #techstack img {
-        width: 35px;
-        height: 30px;
+       /*  width: 55px;
+        height: 50px; */
+        margin: auto;
     }
-    
+
     #tools {
         display: block;
         width: 200px;
         align-items: center;
     }
-    
+
     .toolsList {
         display: flex;
+        margin-top: 30px;
     }
-    
+
     .toolsList>div {
+        margin: auto;
+    }
+
+    .toolsList img{
         margin: auto;
     }
 }

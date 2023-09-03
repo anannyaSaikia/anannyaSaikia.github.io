@@ -1,167 +1,193 @@
-@media all and (min-width : 1024px){
-    .contact{
-        padding-top: 100px;
+@media all and (min-width : 1024px) {
+    .contact {
+        padding-top: 50px;
     }
-    
-    .heading{
+
+    .heading {
         display: flex;
         margin: auto;
         justify-content: center;
         align-items: center;
+        padding: 20px;
     }
-    
-    .heading > img{
+
+    .heading>img {
         width: 150px;
         padding: 20px;
         border-radius: 50%;
     }
-    
-    .para{
+
+    .subheading {
+        font-weight: bold;
+        font-size: xx-large;
+        font-family: cursive;
+    }
+
+    .para {
         width: 700px;
         margin: auto;
-        margin-top: 10px;
+        margin-top: 20px;
         padding: 30px;
         font-size: x-large;
         box-shadow: rgba(198, 102, 102, 0.35) 0px 5px 15px;
+        margin-bottom: 20px;
     }
-    
-    .icons{
+
+    .icons {
         display: flex;
         justify-content: space-around;
         align-items: center;
         padding-top: 40px;
+        margin-bottom: 50px;
     }
-    
-    .icons > div{
+
+    .icons>div {
         margin: 10px;
         display: flex;
         align-items: center;
     }
-    
-    .icons > div >p{
+
+    .icons>div>p {
         padding: 5px;
     }
-    
-    .icons img:hover{
+
+    .icons img:hover {
         transform: scale(1.1);
         transition: all .5s;
     }
-    
-    .icons img{
+
+    .icons img {
         border-radius: 50%;
         width: 100px;
         box-shadow: rgba(7, 7, 7, 0.56) 0px 22px 70px 4px;
     }
 }
 
-@media all and (min-width : 768px) and (max-width : 1023px){
-    .contact{
-        padding-top: 1400px;
+@media all and (min-width : 768px) and (max-width : 1023px) {
+    .contact {
+        padding-top: 100px;
     }
-    
-    .heading{
+
+    .heading {
         display: flex;
         margin: auto;
         justify-content: center;
         align-items: center;
     }
-    
-    .heading > img{
+
+    .heading>img {
         width: 150px;
         padding: 20px;
         border-radius: 50%;
     }
-    
-    .para{
-        width: 700px;
+
+    .subheading {
+        font-weight: bold;
+        font-size: x-large;
+        font-family: cursive;
+    }
+
+    .para {
+        width: 650px;
         margin: auto;
         margin-top: 10px;
         padding: 30px;
         font-size: x-large;
         box-shadow: rgba(198, 102, 102, 0.35) 0px 5px 15px;
     }
-    
-    .icons{
+
+    .icons {
         display: flex;
         justify-content: space-around;
-        align-items: center;
+        align-items: baseline;
         padding-top: 40px;
+        margin-bottom: 50px;
     }
-    
-    .icons > div{
+
+    .icons>div {
         margin: 10px;
         display: block;
         align-items: center;
     }
-    
-    .icons > div >p{
+
+    .icons>div>p {
+        margin: auto;
         padding: 5px;
     }
-    
-    .icons img:hover{
+
+    .icons img:hover {
         transform: scale(1.1);
         transition: all .5s;
     }
-    
-    .icons img{
+
+    .icons img {
+        margin: auto;
         border-radius: 50%;
         width: 100px;
         box-shadow: rgba(7, 7, 7, 0.56) 0px 22px 70px 4px;
     }
 }
 
-@media all and (max-width : 767px){
-    .contact{
-        padding-top: 1100px;
+@media all and (max-width : 767px) {
+    .contact {
+        padding-top: 100px;
     }
-    
-    .heading{
+
+    .heading {
         display: flex;
         margin: auto;
         justify-content: center;
         align-items: center;
+        font-size: smaller;
     }
-    
-    .heading > img{
-        width: 150px;
+
+    .heading>img {
+        width: 100px;
         padding: 20px;
         border-radius: 50%;
     }
-    
-    .para{
-        width: 700px;
+
+    .subheading {
+        font-weight: bold;
+        font-size: large;
+        font-family: cursive;
+    }
+
+    .para {
+        width: 75%;
         margin: auto;
         margin-top: 10px;
         padding: 30px;
-        font-size: x-large;
+        font-size: medium;
         box-shadow: rgba(198, 102, 102, 0.35) 0px 5px 15px;
     }
-    
-    .icons{
-        display: flex;
-        justify-content: space-around;
+
+    .icons {
+        display: block;
         align-items: center;
-        padding-top: 40px;
+        padding-top: 10px;
     }
-    
-    .icons > div{
-        margin: 10px;
-        display: flex;
+
+    .icons>div {
+        margin : auto;
+        display: block;
         align-items: center;
     }
-    
-    .icons > div >p{
-        padding: 5px;
+
+    .icons>div>p {
+        padding: 10px;
     }
-    
-    .icons img:hover{
+
+    .icons img:hover {
         transform: scale(1.1);
         transition: all .5s;
     }
-    
-    .icons img{
+
+    .icons img {
+        margin : auto;
+        margin-bottom: 10px;
         border-radius: 50%;
-        width: 100px;
+        width: 50px;
         box-shadow: rgba(7, 7, 7, 0.56) 0px 22px 70px 4px;
     }
 }
