@@ -43,7 +43,7 @@ const Contact = () => {
       </div>
 
       <div>
-        <a href="https://github.com/anannyaSaikia" style={{ textDecoration: "none", color: "white" }}>
+        <a href="https://github.com/anannyaSaikia" style={{ textDecoration: "none", color: "white", fontSize : "small" }}>
           <p>Designed and Built by Anannya Saikia</p>
         </a>
       </div>

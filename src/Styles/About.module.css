@@ -25,13 +25,15 @@
     }
 
     .para {
-        width: 550px;
-        margin-top: -10px;
-        font-size: larger;
+        width: 650px;
+        margin-top: 50px;
+        font-size: x-large;
         /* margin-left: 20px; */
     }
 
     .resume_button {
+        margin: auto;
+        margin-top : 40px;
         color: white;
         border: none;
         padding: 10px;
@@ -49,7 +51,7 @@
 @media all and (min-width : 768px) and (max-width : 1023px) {
     .about {
         display: block;
-        padding-top: 150px;
+        padding-top: 120px;
     }
 
     .heading {
@@ -74,7 +76,7 @@
 
     .para {
         width: 400px;
-        margin-top: 60px;
+        margin-top: 20px;
         font-size: larger;
         /* margin-left: 20px; */
     }

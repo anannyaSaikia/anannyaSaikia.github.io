@@ -130,7 +130,7 @@
 
 @media all and (max-width : 767px) {
     .contact {
-        padding-top: 100px;
+        padding-top: 40px;
     }
 
     .heading {
@@ -156,8 +156,8 @@
     .para {
         width: 75%;
         margin: auto;
-        margin-top: 10px;
-        padding: 30px;
+        /* margin-top: 10px; */
+        padding: 25px;
         font-size: medium;
         box-shadow: rgba(198, 102, 102, 0.35) 0px 5px 15px;
     }
@@ -170,22 +170,25 @@
 
     .icons>div {
         margin : auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
         display: block;
         align-items: center;
     }
 
     .icons>div>p {
-        padding: 10px;
+        /* padding: 5px; */
+        font-size: x-small;
     }
 
-    .icons img:hover {
+   /*  .icons img:hover {
         transform: scale(1.1);
         transition: all .5s;
-    }
+    } */
 
     .icons img {
         margin : auto;
-        margin-bottom: 10px;
+        /* margin: 10px; */
         border-radius: 50%;
         width: 50px;
         box-shadow: rgba(7, 7, 7, 0.56) 0px 22px 70px 4px;
