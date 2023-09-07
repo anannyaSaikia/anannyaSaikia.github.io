@@ -70,11 +70,11 @@ function App() {
           collapse
             ? <Box >
               <Box display={"flex"} justifyContent={"space-between"} padding={"10px"}
-                style={{position: "fixed", width : "100%", zIndex : "1", color: "rgb(247, 180, 180)", backgroundColor: "#363f52", borderBottom: "1px solid rgba(179, 131, 131)", boxShadow: "rgba(179, 131, 131) 0px 25px 20px -20px" }}>
+                style={{ position: "fixed", width: "100%", zIndex: "1", color: "rgb(247, 180, 180)", backgroundColor: "#363f52", borderBottom: "1px solid rgba(179, 131, 131)", boxShadow: "rgba(179, 131, 131) 0px 25px 20px -20px" }}>
                 <Box onClick={() => scrollToSection(home)}>
                   Anannya
                 </Box>
-                <GiHamburgerMenu ref={btnRef} onClick={onOpen}/>
+                <GiHamburgerMenu ref={btnRef} onClick={onOpen} />
               </Box>
               <Drawer
                 isOpen={isOpen}
@@ -84,22 +84,47 @@ function App() {
               >
                 <DrawerOverlay />
                 <DrawerContent>
-                  <DrawerCloseButton style={{color: "rgb(247, 180, 180)", backgroundColor: "#363f52", border: "1px solid rgba(179, 131, 131)", boxShadow: "rgba(179, 131, 131) 0px 25px 20px -20px"}}/>
+                  <DrawerCloseButton style={{ color: "rgb(247, 180, 180)", backgroundColor: "#363f52", border: "1px solid rgba(179, 131, 131)", boxShadow: "rgba(179, 131, 131) 0px 25px 20px -20px" }} />
                   {/*  <DrawerHeader>Create your account</DrawerHeader> */}
 
                   <DrawerBody padding={"20px"} marginTop={"30px"}
                     style={{ backgroundColor: "#363f52", border: "1px solid rgba(179, 131, 131)" }}>
                     <Stack>
-                      <Button onClick={() => scrollToSection(home)}
-                        style={{ color: "rgb(247, 180, 180)", backgroundColor: "#363f52", border: "1px solid rgba(179, 131, 131)", boxShadow: "rgba(179, 131, 131) 0px 25px 20px -20px" }}>Home</Button>
-                      <Button onClick={() => scrollToSection(about)}
-                        style={{ color: "rgb(247, 180, 180)", backgroundColor: "#363f52", border: "1px solid rgba(179, 131, 131)", boxShadow: "rgba(179, 131, 131) 0px 25px 20px -20px" }}>About</Button>
-                      <Button onClick={() => scrollToSection(skills)}
-                        style={{ color: "rgb(247, 180, 180)", backgroundColor: "#363f52", border: "1px solid rgba(179, 131, 131)", boxShadow: "rgba(179, 131, 131) 0px 25px 20px -20px" }}>Skills</Button>
-                      <Button onClick={() => scrollToSection(projects)}
-                        style={{ color: "rgb(247, 180, 180)", backgroundColor: "#363f52", border: "1px solid rgba(179, 131, 131)", boxShadow: "rgba(179, 131, 131) 0px 25px 20px -20px" }}>Projects</Button>
-                      <Button onClick={() => scrollToSection(contact)}
-                        style={{ color: "rgb(247, 180, 180)", backgroundColor: "#363f52", border: "1px solid rgba(179, 131, 131)", boxShadow: "rgba(179, 131, 131) 0px 25px 20px -20px" }}>Contact</Button>
+                      <Button onClick={() => {
+                        scrollToSection(home);
+                        onClose();
+                      }}
+                        style={{ color: "rgb(247, 180, 180)", backgroundColor: "#363f52", border: "1px solid rgba(179, 131, 131)", boxShadow: "rgba(179, 131, 131) 0px 25px 20px -20px" }}>
+                        Home</Button>
+
+                      <Button onClick={() => {
+                        scrollToSection(about);
+                        onClose()
+                      }}
+                        style={{ color: "rgb(247, 180, 180)", backgroundColor: "#363f52", border: "1px solid rgba(179, 131, 131)", boxShadow: "rgba(179, 131, 131) 0px 25px 20px -20px" }}>
+                        About</Button>
+
+                      <Button onClick={() => {
+                        scrollToSection(skills);
+                        onClose()
+                      }}
+                        style={{ color: "rgb(247, 180, 180)", backgroundColor: "#363f52", border: "1px solid rgba(179, 131, 131)", boxShadow: "rgba(179, 131, 131) 0px 25px 20px -20px" }}>
+                        Skills</Button>
+
+                      <Button onClick={() => {
+                        scrollToSection(projects);
+                        onClose()
+                      }}
+                        style={{ color: "rgb(247, 180, 180)", backgroundColor: "#363f52", border: "1px solid rgba(179, 131, 131)", boxShadow: "rgba(179, 131, 131) 0px 25px 20px -20px" }}>
+                        Projects</Button>
+
+                      <Button onClick={() => {
+                        scrollToSection(contact);
+                        onClose();
+                      }}
+                        style={{ color: "rgb(247, 180, 180)", backgroundColor: "#363f52", border: "1px solid rgba(179, 131, 131)", boxShadow: "rgba(179, 131, 131) 0px 25px 20px -20px" }}>
+                        Contact</Button>
+
                       <a id="resume-link-1"
                         href={AnannyaSaikiaResume}
                         download="Anannya-Saikia-Resume"
@@ -107,7 +132,7 @@ function App() {
                         rel="noopener noreferrer">
                         <Button id="resume-link-1"
                           onClick={openNewWin}
-                          style={{color: "rgb(247, 180, 180)", backgroundColor: "#363f52", border: "1px solid rgba(179, 131, 131)", boxShadow: "rgba(179, 131, 131) 0px 25px 20px -20px"}}
+                          style={{ color: "rgb(247, 180, 180)", backgroundColor: "#363f52", border: "1px solid rgba(179, 131, 131)", boxShadow: "rgba(179, 131, 131) 0px 25px 20px -20px" }}
                         >Resume</Button>
                       </a>
                     </Stack>
