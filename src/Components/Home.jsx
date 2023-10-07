@@ -17,9 +17,8 @@ const Home = () => {
           </div>
 
           <p id="user-detail-intro">An aspiring Full Stack Web Developer | Proficient in JavaScript 
-            and the MERN stack | Collaborative team player with strong problem-solving 
-            skills | Skilled in designing and developing scalable web applications using 
-            React.js, Node.js, Express.js, and MongoDB
+            and the MERN stack | Collaborative team player with skills in designing and developing scalable 
+            web applications
           </p>
 
         </div>
