@@ -16,9 +16,10 @@ const Home = () => {
             <img className="home-img" src="https://media3.giphy.com/media/w1OBpBd7kJqHrJnJ13/giphy.gif?cid=6c09b9528b33f4329eac26608ec8e54c34ff682d7d1ae5cf&rid=giphy.gif&ct=s" alt="Hello" />
           </div>
 
-          <p id="user-detail-intro">An aspiring Full Stack Web Developer | Worked with HTML,
-           CSS, JavaScript, React and Chakra UI to build multiple projects | Designd and developed 
-            server-side API using Node.js, Express.js and MongoDB 
+          <p id="user-detail-intro">An aspiring Full Stack Web Developer | Proficient in JavaScript 
+            and the MERN stack | Collaborative team player with strong problem-solving 
+            skills | Skilled in designing and developing scalable web applications using 
+            React.js, Node.js, Express.js, and MongoDB
           </p>
 
         </div>

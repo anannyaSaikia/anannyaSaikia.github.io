@@ -11,6 +11,7 @@ const Contact = () => {
       <div className={style.para}>
         <p>
           I am currently looking for opportunities to work with and learn from tech enthusiasts and experts.
+          I am eager to be a part of innovative projects and continue growing as a developer within this dynamic field.
           Please drop a mail or connect with me through linkedIn. Looking forward for your valuable response.
         </p>
       </div>
