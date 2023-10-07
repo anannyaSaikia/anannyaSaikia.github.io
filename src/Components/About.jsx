@@ -10,7 +10,9 @@ const About = () => {
     <div className={style.about}>
       <p className={style.heading}>About Me</p>
       <div className={style.desc}>
-        <img src="https://thumbs.gfycat.com/GlisteningAggravatingJunebug-size_restricted.gif" alt="gif" />
+        {/* <img src="https://thumbs.gfycat.com/GlisteningAggravatingJunebug-size_restricted.gif" alt="gif" /> */}
+        <img src="https://user-images.githubusercontent.com/62280849/128852791-6fb73a65-29a6-4c5e-84c5-e8372ac2bd77.gif" alt="gif" />
+
         <div>
           <p id="user-detail-intro" className={style.para}>I am a Full Stack MERN Developer
             • I have learned and applied my knowledge of HTML, CSS, JavaScript and
