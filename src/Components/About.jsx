@@ -4,7 +4,7 @@ import AnannyaSaikiaResume from './Anannya-Saikia-Resume.pdf';
 
 const About = () => {
   const openNewWin = () =>{
-    window.open('https://drive.google.com/file/d/1K4zkK3k278p6XR94hwkss_A9RWeOgFzf/view?usp=drive_link', '_blank')
+    window.open('https://drive.google.com/file/d/1drJaYFu2sJ9lbvGjLpY2X5m5QSwV8099/view?usp=drive_link', '_blank')
   }
   return (
     <div className={style.about}>
