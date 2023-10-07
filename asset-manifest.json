@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.d5f508a1.css",
-    "main.js": "/static/js/main.acc28815.js",
+    "main.css": "/static/css/main.e1e2bbdf.css",
+    "main.js": "/static/js/main.eadab2e6.js",
     "static/js/787.73fa73a0.chunk.js": "/static/js/787.73fa73a0.chunk.js",
     "static/media/mr_chef_image2.png": "/static/media/mr_chef_image2.2b07400df5e99029ea81.png",
     "static/media/mr_chef_image1.png": "/static/media/mr_chef_image1.42f00df67ede33342b38.png",
     "static/media/mr_chef_image3.png": "/static/media/mr_chef_image3.cd447947f030702afb1e.png",
     "static/media/profile_AS.jpg": "/static/media/profile_AS.ebe482b743ef64182bef.jpg",
-    "static/media/Anannya-Saikia-Resume.pdf": "/static/media/Anannya-Saikia-Resume.981169b9d68cfcbfd910.pdf",
+    "static/media/Anannya-Saikia-Resume.pdf": "/static/media/Anannya-Saikia-Resume.a9ab18f82304bdd1aa1a.pdf",
     "static/media/Ajio_1.png": "/static/media/Ajio_1.0fa5c7089cbe4c12c79c.png",
     "static/media/ShopClues_1.png": "/static/media/ShopClues_1.9f5b80940d8e43f1890f.png",
     "static/media/ShopClues_3.png": "/static/media/ShopClues_3.69c702e0949277c8e599.png",
@@ -18,12 +18,12 @@
     "static/media/Portfolio_3.png": "/static/media/Portfolio_3.be2b2dac52336d478562.png",
     "static/media/Ajio_2.png": "/static/media/Ajio_2.10f570cda1762b81e587.png",
     "index.html": "/index.html",
-    "main.d5f508a1.css.map": "/static/css/main.d5f508a1.css.map",
-    "main.acc28815.js.map": "/static/js/main.acc28815.js.map",
+    "main.e1e2bbdf.css.map": "/static/css/main.e1e2bbdf.css.map",
+    "main.eadab2e6.js.map": "/static/js/main.eadab2e6.js.map",
     "787.73fa73a0.chunk.js.map": "/static/js/787.73fa73a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5f508a1.css",
-    "static/js/main.acc28815.js"
+    "static/css/main.e1e2bbdf.css",
+    "static/js/main.eadab2e6.js"
   ]
 }
