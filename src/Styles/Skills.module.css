@@ -17,7 +17,7 @@
     .heading {
         font-weight: bold;
         font-size: xx-large;
-        font-family: cursive;
+        /* font-family: cursive; */
     }
 
     .desc>div {
@@ -151,7 +151,7 @@
     .heading {
         font-weight: bold;
         font-size: x-large;
-        font-family: cursive;
+        /* font-family: cursive; */
     }
 
     .title{
@@ -291,7 +291,7 @@
     .heading {
         font-weight: bold;
         font-size: large;
-        font-family: cursive;
+        /* font-family: cursive; */
     }
 
     .desc>div {
@@ -366,6 +366,7 @@
 
     #techstack>div {
         margin: auto;
+        margin-bottom: 10px;
     }
 
     #techstack img {
@@ -376,7 +377,7 @@
 
     #tools {
         display: block;
-        width: 200px;
+        width: 300px;
         align-items: center;
     }
 
@@ -390,6 +391,6 @@
     }
 
     .toolsList img{
-        margin: auto;
+        margin : auto;
     }
 }

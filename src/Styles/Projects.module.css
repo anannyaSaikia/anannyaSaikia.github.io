@@ -6,7 +6,7 @@
     .heading {
         font-weight: bold;
         font-size: xx-large;
-        font-family: cursive;
+        /* font-family: cursive; */
         margin-bottom: 20px;
     }
 
@@ -110,7 +110,7 @@
 
     .githubHead{
         font-weight: bold;
-        font-style: cursive;
+        /* font-style: cursive; */
         font-size: x-large;
         padding-top: 30px;
     }
@@ -134,7 +134,7 @@
     .heading {
         font-weight: bold;
         font-size: x-large;
-        font-family: cursive;
+        /* font-family: cursive; */
         margin-bottom: 20px;
     }
 
@@ -239,7 +239,7 @@
 
     .githubHead{
         font-weight: bold;
-        font-style: cursive;
+        /* font-style: cursive; */
         font-size: x-large;
         padding-top: 30px;
     }
@@ -265,7 +265,7 @@
     .heading {
         font-weight: bold;
         font-size: large;
-        font-family: cursive;
+        /* font-family: cursive; */
         margin-bottom: 20px;
     }
 
@@ -369,7 +369,7 @@
 
     .githubHead{
         font-weight: bold;
-        font-style: cursive;
+        /* font-style: cursive; */
         font-size: large;
         padding-top: 30px;
     }

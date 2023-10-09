@@ -20,7 +20,7 @@
     .subheading {
         font-weight: bold;
         font-size: xx-large;
-        font-family: cursive;
+        /* font-family: cursive; */
     }
 
     .para {
@@ -84,7 +84,7 @@
     .subheading {
         font-weight: bold;
         font-size: x-large;
-        font-family: cursive;
+        /* font-family: cursive; */
     }
 
     .para {
@@ -150,7 +150,7 @@
     .subheading {
         font-weight: bold;
         font-size: large;
-        font-family: cursive;
+        /* font-family: cursive; */
     }
 
     .para {

@@ -15,7 +15,7 @@ const About = () => {
 
         <div>
           <p id="user-detail-intro" className={style.para}>I am a passionate Full Stack MERN Developer with a strong foundation in web development technologies • 
-          My journey of programming began with HTML, CSS, and JavaScript. I have since honed my skills to encompass the MERN stack, including React and 
+          My journey of programming began with HTML, CSS, and JavaScript • I have since honed my skills to encompass the MERN stack, including React and 
           Chakra UI for frontend development, as well as Node.js, Express.js, and MongoDB for building robust server-side APIs • 
           Over the course of my Masai journey, I have had the privilege of working on various projects where I leveraged my skills to craft engaging and user-friendly web applications •
           I am currently seeking opportunities to work in the tech world • I am excited to contribute to the team I join and create positive impact</p>
